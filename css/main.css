@@ -1,10 +1,3 @@
-/* ==========================================================================
-   Articulate v1.0
-   ========================================================================== */
-/* ==========================================================================
-   Base styles
-   ========================================================================== */
-
 html, body {
     height: 100%;
     width: 100%;
@@ -347,7 +340,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn.btn-default:hover, .btn.btn-default:active {
     background: #fff;
     border-color: #fff;
-    color: fff;
+    color: #fff;
 }
 input, .input-lg, button {
     border-radius: 0;
@@ -442,7 +435,7 @@ label.valid {
     border: 1px solid #fff;
     color: #fff;
     background: none;
-    background-color: none;
+    background-color: transparent;
     font-weight: bold;
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
@@ -605,6 +598,7 @@ label.valid {
 .portfolio-item:hover .portfolio-item-description {
     opacity: 1;
     bottom: 0;
+    display: block;
 }
 
 .portfolio-item-description {
@@ -617,4 +611,5 @@ label.valid {
     text-align: center;
     opacity: 0;
     color: #222;
+    display: none;
 }
