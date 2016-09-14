@@ -556,8 +556,9 @@ label.valid {
     margin-bottom: 2px;
 }
 .jobemployer {
+    font-size: 17px;
     margin-bottom: 2px;
-    font-weight: 100;
+    font-weight: bold;
 }
 .jobtime {
     font-size: 15px;
